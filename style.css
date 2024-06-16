@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.webpage {
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+}
+
+.navbar {
+    background-color: rgb(21, 79, 112) !important;
+    font-size: 10px;
+    color: white;
+}
+
+.main-bg {
+    position: relative;
+    background-image: url('https://res.cloudinary.com/dewqgkvoi/image/upload/v1688102313/girl-sunglasses-purple-shirt-posing_ex4wxo.jpg');
+    background-size: cover;
+    height: 700px;
+}
+
+.main-bg .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* 50% opaque black overlay */
+}
+
+.home-text {
+    position: relative;
+    z-index: 1;
+    padding: 30px;
+}
+
+.home-text-para {
+    font-size: 20px;
+}
+
+.home-text-button {
+    border-radius: 10px;
+    border-width: 0px;
+    background-color: rgb(21, 79, 112);
+    color: white;
+    font-size: 15px;
+    padding: 10px;
+}
+
+.frame-container {
+    color: black !important;
+    text-align: center;
+}
+
+.text-box-para {
+    font-size: 10px;
+}
+
+.text-box-head {
+    font-size: 15px;
+}
+
+.text-box {
+    padding: 20px;
+}
+
+.icon-box {
+    background-color: rgb(21, 79, 112);
+    border-radius: 50%;
+    height: 75px;
+    width: 75px;
+    margin-left: 110px;
+}
+
+.photo-1 {
+    width: 45vw;
+    background-position: left;
+}
+
+.side-box {
+    font-size: 20px;
+    color: black;
+    text-align: right;
+    padding: 5px;
+}
+
+.photo-2 {
+    width: 35vw;
+    background-position: right top;
+    margin-left: 300px;
+}
+
+.contact {
+    text-align: left;
+    font-size: 25px;
+    color: black;
+    padding-top: 30px;
+    padding-right: 30px;
+    padding-left: 50px;
+}
+
+.navbar-scrolled {
+    background-color: #0a2c40 !important;
+    transition: background-color 0.3s;
+}
+.contact-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #f0f0f0;
+    padding: 40px;
+    margin-top: 40px;
+}
+
+.contact-info {
+    flex: 1;
+    text-align: left;
+}
+
+.contact-info h1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.contact-info p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 10px;
+    color: #555;
+}
+
+.contact-map {
+    flex: 1;
+    text-align: center;
+}
+
+.contact-map img {
+    max-width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
